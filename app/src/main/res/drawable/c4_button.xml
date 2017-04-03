@@ -3,6 +3,6 @@
     android:shape="oval"
     android:useLevel="false">
     <stroke android:color="@color/emptychecker"
-        android:width="14dp"/>
+        android:width="@dimen/checker_stroke_percent"/>
     <size android:height="100dp" android:width="100dp" />
 </shape>
