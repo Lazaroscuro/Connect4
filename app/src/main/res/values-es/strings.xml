@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="game_name">Conecta 4</string>
+    <string name="c4_button_desc">Presiona las fichas vacías para colocar las tuyas. ¡Una ficha no puede permanecer en el aire!</string>
+</resources>

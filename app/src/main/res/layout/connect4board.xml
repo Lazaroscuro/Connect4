@@ -1,12 +1,258 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/connect4board"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="es.games.lazarov.connect4.MainActivity">
-</RelativeLayout>
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context="es.games.lazarov.connect4.MainActivity" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/game_name"
+        android:textSize="20sp"/>
+
+    <View
+        android:layout_margin="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/divisor"
+        />
+
+
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:stretchColumns="*">
+
+        <TableRow android:layout_weight="1">
+
+            <ImageButton
+                android:id="@+id/checker_0_0"
+                style="@style/c4button"
+                android:contentDescription="@string/c4_button_desc" />
+
+            <ImageButton
+                android:id="@+id/checker_0_1"
+                style="@style/c4button"
+                android:contentDescription="@string/c4_button_desc" />
+
+            <ImageButton
+                android:id="@+id/checker_0_2"
+                style="@style/c4button"
+                android:contentDescription="@string/c4_button_desc" />
+
+            <ImageButton
+                android:id="@+id/checker_0_3"
+                style="@style/c4button"
+                android:contentDescription="@string/c4_button_desc" />
+
+            <ImageButton
+                android:id="@+id/checker_0_4"
+                style="@style/c4button"
+                android:contentDescription="@string/c4_button_desc" />
+
+            <ImageButton
+                android:id="@+id/checker_0_5"
+                style="@style/c4button"
+                android:contentDescription="@string/c4_button_desc" />
+
+            <ImageButton
+                android:id="@+id/checker_0_6"
+                style="@style/c4button"
+                android:contentDescription="@string/c4_button_desc" />
+        </TableRow>
+
+        <TableRow android:layout_weight="1">
+
+            <ImageButton
+                android:id="@+id/checker_1_0"
+                style="@style/c4button"
+                android:contentDescription="@string/c4_button_desc" />
+
+            <ImageButton
+                android:id="@+id/checker_1_1"
+                style="@style/c4button"
+                android:contentDescription="@string/c4_button_desc" />
+
+            <ImageButton
+                android:id="@+id/checker_1_2"
+                style="@style/c4button"
+                android:contentDescription="@string/c4_button_desc" />
+
+            <ImageButton
+                android:id="@+id/checker_1_3"
+                style="@style/c4button"
+                android:contentDescription="@string/c4_button_desc" />
+
+            <ImageButton
+                android:id="@+id/checker_1_4"
+                style="@style/c4button"
+                android:contentDescription="@string/c4_button_desc" />
+
+            <ImageButton
+                android:id="@+id/checker_1_5"
+                style="@style/c4button"
+                android:contentDescription="@string/c4_button_desc" />
+
+            <ImageButton
+                android:id="@+id/checker_1_6"
+                style="@style/c4button"
+                android:contentDescription="@string/c4_button_desc" />
+        </TableRow>
+
+        <TableRow android:layout_weight="1">
+
+            <ImageButton
+                android:id="@+id/checker_2_0"
+                style="@style/c4button"
+                android:contentDescription="@string/c4_button_desc" />
+
+            <ImageButton
+                android:id="@+id/checker_2_1"
+                style="@style/c4button"
+                android:contentDescription="@string/c4_button_desc" />
+
+            <ImageButton
+                android:id="@+id/checker_2_2"
+                style="@style/c4button"
+                android:contentDescription="@string/c4_button_desc" />
+
+            <ImageButton
+                android:id="@+id/checker_2_3"
+                style="@style/c4button"
+                android:contentDescription="@string/c4_button_desc" />
+
+            <ImageButton
+                android:id="@+id/checker_2_4"
+                style="@style/c4button"
+                android:contentDescription="@string/c4_button_desc" />
+
+            <ImageButton
+                android:id="@+id/checker_2_5"
+                style="@style/c4button"
+                android:contentDescription="@string/c4_button_desc" />
+
+            <ImageButton
+                android:id="@+id/checker_2_6"
+                style="@style/c4button"
+                android:contentDescription="@string/c4_button_desc" />
+        </TableRow>
+
+        <TableRow android:layout_weight="1">
+
+            <ImageButton
+                android:id="@+id/checker_3_0"
+                style="@style/c4button"
+                android:contentDescription="@string/c4_button_desc" />
+
+            <ImageButton
+                android:id="@+id/checker_3_1"
+                style="@style/c4button"
+                android:contentDescription="@string/c4_button_desc" />
+
+            <ImageButton
+                android:id="@+id/checker_3_2"
+                style="@style/c4button"
+                android:contentDescription="@string/c4_button_desc" />
+
+            <ImageButton
+                android:id="@+id/checker_3_3"
+                style="@style/c4button"
+                android:contentDescription="@string/c4_button_desc" />
+
+            <ImageButton
+                android:id="@+id/checker_3_4"
+                style="@style/c4button"
+                android:contentDescription="@string/c4_button_desc" />
+
+            <ImageButton
+                android:id="@+id/checker_3_5"
+                style="@style/c4button"
+                android:contentDescription="@string/c4_button_desc" />
+
+            <ImageButton
+                android:id="@+id/checker_3_6"
+                style="@style/c4button"
+                android:contentDescription="@string/c4_button_desc" />
+        </TableRow>
+
+        <TableRow android:layout_weight="1">
+
+            <ImageButton
+                android:id="@+id/checker_4_0"
+                style="@style/c4button"
+                android:contentDescription="@string/c4_button_desc" />
+
+            <ImageButton
+                android:id="@+id/checker_4_1"
+                style="@style/c4button"
+                android:contentDescription="@string/c4_button_desc" />
+
+            <ImageButton
+                android:id="@+id/checker_4_2"
+                style="@style/c4button"
+                android:contentDescription="@string/c4_button_desc" />
+
+            <ImageButton
+                android:id="@+id/checker_4_3"
+                style="@style/c4button"
+                android:contentDescription="@string/c4_button_desc" />
+
+            <ImageButton
+                android:id="@+id/checker_4_4"
+                style="@style/c4button"
+                android:contentDescription="@string/c4_button_desc" />
+
+            <ImageButton
+                android:id="@+id/checker_4_5"
+                style="@style/c4button"
+                android:contentDescription="@string/c4_button_desc" />
+
+            <ImageButton
+                android:id="@+id/checker_4_6"
+                style="@style/c4button"
+                android:contentDescription="@string/c4_button_desc" />
+        </TableRow>
+
+        <TableRow android:layout_weight="1">
+
+            <ImageButton
+                android:id="@+id/checker_5_0"
+                style="@style/c4button"
+                android:contentDescription="@string/c4_button_desc" />
+
+            <ImageButton
+                android:id="@+id/checker_5_1"
+                style="@style/c4button"
+                android:contentDescription="@string/c4_button_desc" />
+
+            <ImageButton
+                android:id="@+id/checker_5_2"
+                style="@style/c4button"
+                android:contentDescription="@string/c4_button_desc" />
+
+            <ImageButton
+                android:id="@+id/checker_5_3"
+                style="@style/c4button"
+                android:contentDescription="@string/c4_button_desc" />
+
+            <ImageButton
+                android:id="@+id/checker_5_4"
+                style="@style/c4button"
+                android:contentDescription="@string/c4_button_desc" />
+
+            <ImageButton
+                android:id="@+id/checker_5_5"
+                style="@style/c4button"
+                android:contentDescription="@string/c4_button_desc" />
+
+            <ImageButton
+                android:id="@+id/checker_5_6"
+                style="@style/c4button"
+                android:contentDescription="@string/c4_button_desc" />
+        </TableRow>
+    </TableLayout>
+</LinearLayout>

@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Connect4</string>
+    <string name="game_name">Connect 4</string>
+    <string name="c4_button_desc">Press the empty checkers to place yours. A checker can\'t stand in the air!</string>
 </resources>
