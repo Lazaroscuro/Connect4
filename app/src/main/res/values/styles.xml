@@ -14,7 +14,7 @@
         <item name="android:background">@android:color/transparent</item>
         <item name="android:scaleType">fitCenter</item>
         <item name="android:src">@drawable/c4_button</item>
-        <item name="android:padding">2dp</item>
+        <item name="android:padding">@dimen/checker_padding</item>
     </style>
 
 </resources>
