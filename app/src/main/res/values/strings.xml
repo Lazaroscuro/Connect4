@@ -2,4 +2,7 @@
     <string name="app_name">Connect4</string>
     <string name="game_name">Connect 4</string>
     <string name="c4_button_desc">Press the empty checkers to place yours. A checker can\'t stand in the air!</string>
+    <string name="wrong_movement">Wrong movement!</string>
+    <string name="tie_game">Tie! Nice game.</string>
+    <string name="winner_player">Player %d wins!</string>
 </resources>
