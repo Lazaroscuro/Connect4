@@ -96,6 +96,22 @@ public class MainActivity extends AppCompatActivity implements OnClickListener {
             }
     }
 
+    @Override
+    public void onSaveInstanceState(Bundle outState)
+    {
+        outState.putString("Grid", game.gridToString());
+        super.onSaveInstanceState(outState);
+    }
+
+    @Override
+    public void onRestoreInstanceState(Bundle savedInstanceState)
+    {
+        super.onRestoreInstanceState(savedInstanceState);
+        String grid = savedInstanceState.getString("Grid");
+        game = new C4Game(grid);
+        updateUI();
+    }
+
     public int getRow(int id){
         switch(id){
             case R.id.checker_0_0:
