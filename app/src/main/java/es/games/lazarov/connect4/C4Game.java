@@ -103,7 +103,6 @@ public class C4Game {
                     r = false;
                     break;
                 }
-                System.out.println(r);
             }
             if(r)
                 return true;
