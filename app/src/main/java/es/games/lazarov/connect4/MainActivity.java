@@ -7,8 +7,11 @@ import android.view.View.OnClickListener;
 import android.widget.ImageButton;
 import android.widget.Toast;
 
+import java.util.Random;
+
 public class MainActivity extends AppCompatActivity implements OnClickListener {
     C4Game  game = new C4Game();
+    Random  rand = new Random();
     /*C4Game.Val  player = C4Game.Val.P1;*/
 
     @Override
@@ -64,7 +67,12 @@ public class MainActivity extends AppCompatActivity implements OnClickListener {
         C4Game.Val  wins = game.winner();
 
         if(wins == C4Game.Val.EMPTY){
-            Toast.makeText(this, getResources().getString(R.string.tie_game), Toast.LENGTH_SHORT).show(); //FIXME: Add WarGames easter egg.
+            int tie_msg;
+            tie_msg = (rand.nextInt(3) != 0)?
+                    R.string.tie_game:
+                    R.string.joshua; /* Easter egg */
+
+            Toast.makeText(this, getResources().getString(tie_msg), Toast.LENGTH_SHORT).show();
             return;
         }
 
