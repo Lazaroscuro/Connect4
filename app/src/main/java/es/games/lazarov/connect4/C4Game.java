@@ -21,10 +21,18 @@ public class C4Game {
     private Random  rand = new Random();
 
     private Checker[][] tablero = new Checker[h][w];
+
     public C4Game(){
         for(Checker[] c: tablero)
             for(int i = 0; i < w; i++)
                 c[i] = new Checker();
+    }
+
+    public C4Game(String str){
+        this();
+        for(int j = 0; j < h; j++)
+        for(int i = 0; i < w; i++)
+            get(i, j).set(Val.values()[str.charAt(j * w + i) - '0']);
     }
 
     public Checker get(int i, int j){
@@ -139,5 +147,16 @@ public class C4Game {
             return Val.P2;
 
         return Val.EMPTY;
+    }
+
+    public String gridToString()
+    {
+        String str = "";
+
+        for(int j = 0; j < h; j++)
+        for(int i = 0; i < w; i++)
+            str += get(i, j).v().ordinal();
+
+        return str;
     }
 }
