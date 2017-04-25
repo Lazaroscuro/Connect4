@@ -6,4 +6,5 @@
     <string name="tie_game">¡Empate! Una buena partida.</string>
     <string name="joshua">Extraño juego. El único movimiento para ganar es no jugar. ¿Que tal una partidita de ajedrez?</string>
     <string name="winner_player">¡Gana el jugador %d!</string>
+    <string name="single_player">Humano contra máquina,\n¿Cuál de los dos ganará?</string>
 </resources>

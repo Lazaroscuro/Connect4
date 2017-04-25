@@ -6,4 +6,5 @@
     <string name="tie_game">Tie! Nice game.</string>
     <string name="joshua">A strange game. The only winning movement is not to play. How about a nice game of chess?</string>
     <string name="winner_player">Player %d wins!</string>
+    <string name="single_player">Human against machine,\nwhich of the two will win?</string>
 </resources>
