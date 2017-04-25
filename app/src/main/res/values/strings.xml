@@ -4,5 +4,6 @@
     <string name="c4_button_desc">Press the empty checkers to place yours. A checker can\'t stand in the air!</string>
     <string name="wrong_movement">Wrong movement!</string>
     <string name="tie_game">Tie! Nice game.</string>
+    <string name="joshua">A strange game. The only winning movement is not to play. How about a nice game of chess?</string>
     <string name="winner_player">Player %d wins!</string>
 </resources>
