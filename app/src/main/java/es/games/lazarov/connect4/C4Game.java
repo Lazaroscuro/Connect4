@@ -112,16 +112,7 @@ public class C4Game {
 
     public boolean isOver()
     {
-        if(fourInVec(0, 1, Val.P1) || fourInVec(1, 0, Val.P1))
-            return true;
-
-        if(fourInVec(1, 1, Val.P1) || fourInVec(1, -1, Val.P1))
-            return true;
-
-        if(fourInVec(0, 1, Val.P2) || fourInVec(1, 0, Val.P2))
-            return true;
-
-        if(fourInVec(1, 1, Val.P2) || fourInVec(1, -1, Val.P2))
+        if(!winner().equals(Val.EMPTY))
             return true;
 
         for(int j = 0; j < h; j++)
