@@ -5,4 +5,5 @@
     <dimen name="checker_padding">2dp</dimen>
     <dimen name="checker_stroke_percent">14dp</dimen>
     <dimen name="button_text">20sp</dimen>
+    <item name="translucent" type="dimen" format="float">0.4</item>
 </resources>

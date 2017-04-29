@@ -2,7 +2,8 @@
 <resources>
     <string name="game_name">Conecta 4</string>
     <string name="c4_button_desc">Presiona las fichas vacías para colocar las tuyas. ¡Una ficha no puede permanecer en el aire!</string>
-    <string name="wrong_movement">¡Movimiento incorrecto!</string>
+    <string name="wrong_movement_occupied">¡Esa posición está ocupada por otra ficha!</string>
+    <string name="wrong_movement_air">¡Las fichas no se sostienen en el aire!</string>
     <string name="tie_game">¡Empate! Una buena partida.</string>
     <string name="joshua">Extraño juego. El único movimiento para ganar es no jugar. ¿Que tal una partidita de ajedrez?</string>
     <string name="winner_player">¡Gana el jugador %d!</string>
