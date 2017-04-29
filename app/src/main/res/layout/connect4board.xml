@@ -32,36 +32,43 @@
             <ImageButton
                 android:id="@+id/checker_0_0"
                 style="@style/c4button"
+                android:alpha="@dimen/translucent"
                 android:contentDescription="@string/c4_button_desc" />
 
             <ImageButton
                 android:id="@+id/checker_0_1"
                 style="@style/c4button"
+                android:alpha="@dimen/translucent"
                 android:contentDescription="@string/c4_button_desc" />
 
             <ImageButton
                 android:id="@+id/checker_0_2"
                 style="@style/c4button"
+                android:alpha="@dimen/translucent"
                 android:contentDescription="@string/c4_button_desc" />
 
             <ImageButton
                 android:id="@+id/checker_0_3"
                 style="@style/c4button"
+                android:alpha="@dimen/translucent"
                 android:contentDescription="@string/c4_button_desc" />
 
             <ImageButton
                 android:id="@+id/checker_0_4"
                 style="@style/c4button"
+                android:alpha="@dimen/translucent"
                 android:contentDescription="@string/c4_button_desc" />
 
             <ImageButton
                 android:id="@+id/checker_0_5"
                 style="@style/c4button"
+                android:alpha="@dimen/translucent"
                 android:contentDescription="@string/c4_button_desc" />
 
             <ImageButton
                 android:id="@+id/checker_0_6"
                 style="@style/c4button"
+                android:alpha="@dimen/translucent"
                 android:contentDescription="@string/c4_button_desc" />
         </TableRow>
 
@@ -70,36 +77,43 @@
             <ImageButton
                 android:id="@+id/checker_1_0"
                 style="@style/c4button"
+                android:alpha="@dimen/translucent"
                 android:contentDescription="@string/c4_button_desc" />
 
             <ImageButton
                 android:id="@+id/checker_1_1"
                 style="@style/c4button"
+                android:alpha="@dimen/translucent"
                 android:contentDescription="@string/c4_button_desc" />
 
             <ImageButton
                 android:id="@+id/checker_1_2"
                 style="@style/c4button"
+                android:alpha="@dimen/translucent"
                 android:contentDescription="@string/c4_button_desc" />
 
             <ImageButton
                 android:id="@+id/checker_1_3"
                 style="@style/c4button"
+                android:alpha="@dimen/translucent"
                 android:contentDescription="@string/c4_button_desc" />
 
             <ImageButton
                 android:id="@+id/checker_1_4"
                 style="@style/c4button"
+                android:alpha="@dimen/translucent"
                 android:contentDescription="@string/c4_button_desc" />
 
             <ImageButton
                 android:id="@+id/checker_1_5"
                 style="@style/c4button"
+                android:alpha="@dimen/translucent"
                 android:contentDescription="@string/c4_button_desc" />
 
             <ImageButton
                 android:id="@+id/checker_1_6"
                 style="@style/c4button"
+                android:alpha="@dimen/translucent"
                 android:contentDescription="@string/c4_button_desc" />
         </TableRow>
 
@@ -108,36 +122,43 @@
             <ImageButton
                 android:id="@+id/checker_2_0"
                 style="@style/c4button"
+                android:alpha="@dimen/translucent"
                 android:contentDescription="@string/c4_button_desc" />
 
             <ImageButton
                 android:id="@+id/checker_2_1"
                 style="@style/c4button"
+                android:alpha="@dimen/translucent"
                 android:contentDescription="@string/c4_button_desc" />
 
             <ImageButton
                 android:id="@+id/checker_2_2"
                 style="@style/c4button"
+                android:alpha="@dimen/translucent"
                 android:contentDescription="@string/c4_button_desc" />
 
             <ImageButton
                 android:id="@+id/checker_2_3"
                 style="@style/c4button"
+                android:alpha="@dimen/translucent"
                 android:contentDescription="@string/c4_button_desc" />
 
             <ImageButton
                 android:id="@+id/checker_2_4"
                 style="@style/c4button"
+                android:alpha="@dimen/translucent"
                 android:contentDescription="@string/c4_button_desc" />
 
             <ImageButton
                 android:id="@+id/checker_2_5"
                 style="@style/c4button"
+                android:alpha="@dimen/translucent"
                 android:contentDescription="@string/c4_button_desc" />
 
             <ImageButton
                 android:id="@+id/checker_2_6"
                 style="@style/c4button"
+                android:alpha="@dimen/translucent"
                 android:contentDescription="@string/c4_button_desc" />
         </TableRow>
 
@@ -146,36 +167,43 @@
             <ImageButton
                 android:id="@+id/checker_3_0"
                 style="@style/c4button"
+                android:alpha="@dimen/translucent"
                 android:contentDescription="@string/c4_button_desc" />
 
             <ImageButton
                 android:id="@+id/checker_3_1"
                 style="@style/c4button"
+                android:alpha="@dimen/translucent"
                 android:contentDescription="@string/c4_button_desc" />
 
             <ImageButton
                 android:id="@+id/checker_3_2"
                 style="@style/c4button"
+                android:alpha="@dimen/translucent"
                 android:contentDescription="@string/c4_button_desc" />
 
             <ImageButton
                 android:id="@+id/checker_3_3"
                 style="@style/c4button"
+                android:alpha="@dimen/translucent"
                 android:contentDescription="@string/c4_button_desc" />
 
             <ImageButton
                 android:id="@+id/checker_3_4"
                 style="@style/c4button"
+                android:alpha="@dimen/translucent"
                 android:contentDescription="@string/c4_button_desc" />
 
             <ImageButton
                 android:id="@+id/checker_3_5"
                 style="@style/c4button"
+                android:alpha="@dimen/translucent"
                 android:contentDescription="@string/c4_button_desc" />
 
             <ImageButton
                 android:id="@+id/checker_3_6"
                 style="@style/c4button"
+                android:alpha="@dimen/translucent"
                 android:contentDescription="@string/c4_button_desc" />
         </TableRow>
 
@@ -184,36 +212,43 @@
             <ImageButton
                 android:id="@+id/checker_4_0"
                 style="@style/c4button"
+                android:alpha="@dimen/translucent"
                 android:contentDescription="@string/c4_button_desc" />
 
             <ImageButton
                 android:id="@+id/checker_4_1"
                 style="@style/c4button"
+                android:alpha="@dimen/translucent"
                 android:contentDescription="@string/c4_button_desc" />
 
             <ImageButton
                 android:id="@+id/checker_4_2"
                 style="@style/c4button"
+                android:alpha="@dimen/translucent"
                 android:contentDescription="@string/c4_button_desc" />
 
             <ImageButton
                 android:id="@+id/checker_4_3"
                 style="@style/c4button"
+                android:alpha="@dimen/translucent"
                 android:contentDescription="@string/c4_button_desc" />
 
             <ImageButton
                 android:id="@+id/checker_4_4"
                 style="@style/c4button"
+                android:alpha="@dimen/translucent"
                 android:contentDescription="@string/c4_button_desc" />
 
             <ImageButton
                 android:id="@+id/checker_4_5"
                 style="@style/c4button"
+                android:alpha="@dimen/translucent"
                 android:contentDescription="@string/c4_button_desc" />
 
             <ImageButton
                 android:id="@+id/checker_4_6"
                 style="@style/c4button"
+                android:alpha="@dimen/translucent"
                 android:contentDescription="@string/c4_button_desc" />
         </TableRow>
 
@@ -222,36 +257,43 @@
             <ImageButton
                 android:id="@+id/checker_5_0"
                 style="@style/c4button"
+                android:alpha="@dimen/translucent"
                 android:contentDescription="@string/c4_button_desc" />
 
             <ImageButton
                 android:id="@+id/checker_5_1"
                 style="@style/c4button"
+                android:alpha="@dimen/translucent"
                 android:contentDescription="@string/c4_button_desc" />
 
             <ImageButton
                 android:id="@+id/checker_5_2"
                 style="@style/c4button"
+                android:alpha="@dimen/translucent"
                 android:contentDescription="@string/c4_button_desc" />
 
             <ImageButton
                 android:id="@+id/checker_5_3"
                 style="@style/c4button"
+                android:alpha="@dimen/translucent"
                 android:contentDescription="@string/c4_button_desc" />
 
             <ImageButton
                 android:id="@+id/checker_5_4"
                 style="@style/c4button"
+                android:alpha="@dimen/translucent"
                 android:contentDescription="@string/c4_button_desc" />
 
             <ImageButton
                 android:id="@+id/checker_5_5"
                 style="@style/c4button"
+                android:alpha="@dimen/translucent"
                 android:contentDescription="@string/c4_button_desc" />
 
             <ImageButton
                 android:id="@+id/checker_5_6"
                 style="@style/c4button"
+                android:alpha="@dimen/translucent"
                 android:contentDescription="@string/c4_button_desc" />
         </TableRow>
     </TableLayout>

@@ -2,6 +2,7 @@ package es.games.lazarov.connect4;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.TypedValue;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.ImageButton;
@@ -12,12 +13,19 @@ import java.util.Random;
 public class MainActivity extends AppCompatActivity implements OnClickListener {
     C4Game  game = new C4Game();
     Random  rand = new Random();
+    float   translucent = 0.5f; /* stub value */
     /*C4Game.Val  player = C4Game.Val.P1;*/
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.connect4board);
+
+        TypedValue t = new TypedValue();
+        getResources().getValue(R.dimen.translucent, t, true);
+        translucent = t.getFloat();
+        updateUI();
+
         for(int j = 0; j < C4Game.h; j++)
             for(int i = 0; i < C4Game.w; i++) {
                 ImageButton b = (ImageButton) findViewById(getID(i, j));
@@ -34,8 +42,13 @@ public class MainActivity extends AppCompatActivity implements OnClickListener {
         }
 
         int id = v.getId();
-        if(!game.play(C4Game.Val.P1, getColumn(id), getRow(id))) {
-            Toast.makeText(this, getResources().getString(R.string.wrong_movement), Toast.LENGTH_SHORT).show();
+        int x = getColumn(id);
+        int y = getRow(id);
+        if(!game.play(C4Game.Val.P1, x, y)) {
+            if(game.get(x, y).v().equals(C4Game.Val.EMPTY))
+                Toast.makeText(this, getResources().getString(R.string.wrong_movement_air), Toast.LENGTH_SHORT).show();
+            else
+                Toast.makeText(this, getResources().getString(R.string.wrong_movement_occupied), Toast.LENGTH_SHORT).show();
             return;
         }
 
@@ -86,11 +99,18 @@ public class MainActivity extends AppCompatActivity implements OnClickListener {
             for(int i = 0; i < C4Game.w; i++) {
                 ImageButton b = (ImageButton) findViewById(getID(i, j));
 
-                if(game.get(i, j).v().equals(C4Game.Val.P1)){
-                    b.setImageResource(R.drawable.c4_button_yellow);
-                }else if(game.get(i, j).v().equals(C4Game.Val.P2)){
-                    b.setImageResource(R.drawable.c4_button_red);
+                if(!game.get(i, j).v().equals(C4Game.Val.EMPTY)){
+                    b.setAlpha(1.0f);
+
+                    if(game.get(i, j).v().equals(C4Game.Val.P1))
+                        b.setImageResource(R.drawable.c4_button_yellow);
+                    else /* if(game.get(i, j).v().equals(C4Game.Val.P2)) */
+                        b.setImageResource(R.drawable.c4_button_red);
                 }else{
+                    if(game.isAvailable(i, j))
+                        b.setAlpha(1.0f);
+                    else
+                        b.setAlpha(translucent);
                     b.setImageResource(R.drawable.c4_button);
                 }
             }
